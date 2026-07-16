@@ -10,3 +10,12 @@ claudex --login
 Claudex requires Codex and Claude Code to be installed on the machine. The
 formula installs the Node.js and jq runtime dependencies used by Claudex's
 automatic first-run setup.
+
+## Beamo Flasher CLI
+
+Install [Beamo Flasher](https://github.com/BeamoINT/beamo-flasher) with:
+
+```sh
+brew install BeamoINT/tap/beamo-flasher
+bflash --help
+```
