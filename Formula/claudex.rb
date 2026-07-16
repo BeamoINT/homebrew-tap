@@ -1,8 +1,8 @@
 class Claudex < Formula
   desc "Use Codex GPT models through the Claude Code interface"
   homepage "https://github.com/BeamoINT/Claudex"
-  url "https://github.com/BeamoINT/Claudex/releases/download/v1.4.5/claudex-1.4.5.tar.gz"
-  sha256 "21c73fdcd78f7906d30dd4eec9c406ff705bbf08b338434960fa21c056171aef"
+  url "https://github.com/BeamoINT/Claudex/releases/download/v1.5.0/claudex-1.5.0.tar.gz"
+  sha256 "0bba8450324e9653e5ed73012e295328804742eae918b5ce6c5510885fb3d2bb"
   license "MIT"
 
   depends_on "jq"
