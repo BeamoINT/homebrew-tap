@@ -18,8 +18,8 @@
 class Bssh < Formula
   desc "CLI for Browser SSH agent API and MCP install"
   homepage "https://browserssh.com"
-  url "https://github.com/BeamoINT/homebrew-tap/releases/download/bssh-v0.1.0/bssh-0.1.0.tar.gz"
-  sha256 "d3c09c2ba595727eeb5b778d9c24ad626763be89a467fb954e2ced97ab71bdb1"
+  url "https://github.com/BeamoINT/homebrew-tap/releases/download/bssh-v0.1.1/bssh-0.1.1.tar.gz"
+  sha256 "304a459b5c2b623940f229c8c00b0bde92d5e7c4dc7ad92d168784c18fb773c1"
   license "MIT"
 
   depends_on "node"
