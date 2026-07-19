@@ -19,3 +19,16 @@ Install [Beamo Flasher](https://github.com/BeamoINT/beamo-flasher) with:
 brew install BeamoINT/tap/beamo-flasher
 bflash --help
 ```
+
+## Browser SSH CLI
+
+Install [bssh](https://browserssh.com) with:
+
+```sh
+brew install BeamoINT/tap/bssh
+bssh --help
+```
+
+`bssh` is the first-party CLI for the Browser SSH agent API and MCP install glue.
+It is a self-contained Node bundle (requires `node`) shipped as a GitHub Release
+asset on this tap; it is not published to npm.
