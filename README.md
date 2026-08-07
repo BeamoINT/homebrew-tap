@@ -13,7 +13,7 @@ by that setup.
 
 ## Beamo Flasher CLI
 
-Install [Beamo Flasher](https://github.com/BeamoINT/beamo-flasher) with:
+Install [Beamo Flasher](https://beamo.tech/flasher-download) with:
 
 ```sh
 brew install BeamoINT/tap/beamo-flasher
