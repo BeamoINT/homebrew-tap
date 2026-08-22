@@ -1,8 +1,8 @@
 class BeamoFlasher < Formula
   desc "CLI for flashing verified removable-media images"
   homepage "https://beamo.tech/flasher-download"
-  url "https://github.com/BeamoINT/beamo-flasher-releases/releases/download/v0.5.12/beamo-flasher-cli-v0.5.12.zip"
-  sha256 "acf7b654fd8b713bcd8b6cfab6c3e1df97e9eeda799edc120c6d3394f15f3afa"
+  url "https://github.com/BeamoINT/beamo-flasher-releases/releases/download/v0.5.14/beamo-flasher-cli-v0.5.14.zip"
+  sha256 "d6247d4022bd90a622f51fe3f8130f859b898a2a5b7905642696235ed1ac27e0"
   license "MIT"
 
   depends_on "node"
