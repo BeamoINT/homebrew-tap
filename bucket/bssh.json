@@ -1,6 +1,6 @@
 {
     "version": "0.1.1",
-    "description": "CLI for Browser SSH agent API and MCP install glue",
+    "description": "Retired BrowserSSH agent CLI; install agentssh instead",
     "homepage": "https://browserssh.com",
     "license": "MIT",
     "architecture": {
@@ -26,5 +26,6 @@
                 "url": "https://github.com/BeamoINT/homebrew-tap/releases/download/bssh-v$version/bssh-$version-windows.zip"
             }
         }
-    }
+    },
+    "pre_install": "throw 'BrowserSSH now provides browser SSH only. Install agentssh from this bucket and create a new AgentSSH account/key. Existing BrowserSSH credentials are not transferred.'"
 }

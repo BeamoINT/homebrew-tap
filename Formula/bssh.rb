@@ -1,26 +1,12 @@
-# Homebrew formula for bssh (Browser SSH CLI).
-#
-# Distributed npm-free: the self-contained CLI bundle (bssh.mjs) is shipped as a
-# GitHub Release asset on the PUBLIC tap repo (browserssh is private, so its own
-# release assets are not anonymously downloadable). This file is the source of
-# truth; the tap's Formula/bssh.rb is kept identical.
-#
-# Release flow (no npm):
-#   1. npm run bundle:publish -w @browserssh/cli   # builds packages/cli/dist-bundle/bssh.mjs
-#   2. tar -C packages/cli/dist-bundle -czf bssh-<v>.tar.gz bssh.mjs README.md LICENSE
-#   3. gh release create bssh-v<v> bssh-<v>.tar.gz --repo BeamoINT/homebrew-tap
-#   4. shasum -a 256 bssh-<v>.tar.gz  -> update url/sha256 below
-#   5. copy this file to BeamoINT/homebrew-tap Formula/bssh.rb
-#
-#   brew install BeamoINT/tap/bssh
-#   brew upgrade bssh
-
+# Retired legacy agent client. BrowserSSH now provides browser SSH only.
 class Bssh < Formula
-  desc "CLI for Browser SSH agent API and MCP install"
+  desc "Retired BrowserSSH agent CLI; use AgentSSH"
   homepage "https://browserssh.com"
   url "https://github.com/BeamoINT/homebrew-tap/releases/download/bssh-v0.1.1/bssh-0.1.1.tar.gz"
   sha256 "304a459b5c2b623940f229c8c00b0bde92d5e7c4dc7ad92d168784c18fb773c1"
   license "MIT"
+
+  disable! date: "2026-09-20", because: "its agent API moved to AgentSSH", replacement_formula: "BeamoINT/tap/agentssh"
 
   depends_on "node"
 
