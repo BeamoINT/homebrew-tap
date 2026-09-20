@@ -1,0 +1,25 @@
+{
+  "version": "0.1.1",
+  "description": "CLI for AgentSSH agent API and MCP install glue",
+  "homepage": "https://agentssh-beamo-20260920.pages.dev",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/BeamoINT/homebrew-tap/releases/download/agentssh-v0.1.1/agentssh-0.1.1-windows.zip",
+      "hash": "5649f94bcb66e28248c3ede41318fc8a09ebf2fa349268d8ee223171002fee45"
+    }
+  },
+  "depends": "nodejs",
+  "bin": [["agentssh.cmd", "agentssh"]],
+  "checkver": {
+    "github": "https://github.com/BeamoINT/homebrew-tap",
+    "regex": "agentssh-v([\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/BeamoINT/homebrew-tap/releases/download/agentssh-v$version/agentssh-$version-windows.zip"
+      }
+    }
+  }
+}
